@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 196, 198);
+}
+
+header {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+form input,
+form button {
+    padding: 8px;
+    font-family: Roboto, sans-serif;
+}
+
+form button {
+    font-weight: bold;
+}
+
+ul {
+    margin-left: 45px;
+    margin-top: 16px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+.sublinhar {
+    text-decoration: line-through;
+}
